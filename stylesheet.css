@@ -1,0 +1,133 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+    list-style:none;
+}
+
+
+.Profile p{
+    padding-left:20px;
+}
+
+.Profile li{
+    padding-left:20px;
+}
+
+.Skill{
+    height:200px;
+}
+
+.Skill li{
+    padding-left:20px;
+}
+
+.header{
+    background-color:rgb(57, 142, 212);
+    height:140px;
+    color:#fff;
+    padding:10px;
+
+}
+
+.main{
+    background-color:#fff;
+    height:2000px;
+
+}
+
+.Profile{
+    height:1100px;
+
+}
+
+.iframe{
+    float:center;
+    width:100%;
+}
+
+.proimg{
+    width:25%;
+    float:right;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-left:20px;
+}
+
+.Works{
+    height:740px;
+    background-color: rgb(192, 192, 192);
+}
+
+.wimage{
+    width:80%;
+    padding:30px;
+}
+
+.box{
+    width:30%;
+    float:left;
+    padding-left:20px;
+}
+
+
+.footer{
+    background-color:rgb(149, 194, 212);
+    height:140px;
+    color:rgb(65, 65, 65);
+    padding:10px;
+}
+
+.header-logo{
+    font-size:80px;
+    float:left;
+    padding:10px;
+}
+
+.footer-logo{
+    font-size:30px;
+    float:left;
+    padding:10px;
+}
+
+.header-list li{
+    list-style:none;
+    font-size:20px;
+    float:right;
+    padding:60px 40px;
+}
+
+.footer-list li{
+    list-style:none;
+    font-size:20px;
+    float:right;
+    padding:60px 40px;
+}
+
+
+body{
+    margin:0;
+}
+
+h1{
+    margin:10px;
+}
+
+h3{
+    padding:20px;
+}
+
+ul{
+    margin:0px;
+}
+
+.works_p{
+    text-align:center;
+
+}
