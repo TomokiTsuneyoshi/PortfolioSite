@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--文字コード指定-->
+    <meta charset="utf-8">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+
+<!--ヘッダー -->
+      
+  <body>
+      <div class="header">
+          <div class="header-logo">MyPortfolio</div>
+            <div class="header-list"> 
+                <ul>
+                    <a href="#idWorks"><li>Works</li></a>
+                    <a href="#idSkill"><li>Skill</li></a>
+                    <a href="#idProfile"><li>Profile</li></a>
+                </ul>
+            </div>
+      </div>
+
+<!--メイン -->
+      
+      <div class="main">
+        <h1>こんなひとです！</h1>
+        
+        <div class="proimg">
+          <img src="ss.png" alt="myface" width="250" height="300">
+        </div>
+        
+  <!--Profile-->       
+        <div class="Profile" id="idProfile">
+          <h2>Profile</h2>
+          <h3>趣味</h3>
+          <ul>
+            <li><span>ピアノ</span> (中学から独学で習得)</li>
+            <li><span>作曲</span> (動画制作用メインの効果音制作)</li>
+            <li><span>esports観戦</span> (esportsカフェでオープニングスタッフとしてアルバイト経験あり)</li>
+            <li><span>3DCG制作</span> (エフェクトメインで個人制作経験あり)</li>
+          </ul>
+          <h3>研究</h3>
+          <p>主にヴァイオリンの演奏習得支援システムの開発をしています。</p>
+          <iframe class="iframe" src="M1中間発表資料_恒吉.pdf" frameborder="0" width="100%" height="60%"></iframe>
+        </div>
+
+  <!--Skill-->
+        <div class="Skill" id="idSkill">
+          <h2>Skill</h2>
+          <ul>
+            <li>Python:2年(研究でメインで使用している。音響解析ソフトの開発)</li>
+            <li>C:1年(授業で論理回路の作成やマイコンを動かすなどの経験)</li>
+            <li>Java:1年(授業でオブジェクト指向などを学んだ程度、javaでアプリ開発したい...)</li>
+            <li>Unity:2年(シェーダ(画像処理)プログラムを趣味で作成)</li>              
+          </ul>
+        </div>
+        
+  <!--Works-->
+        <div class="Works" id="idWorks">
+          <h2>Works</h2>
+          <div class="pbox">
+            <div class="box boxA">
+              <img class="wimage imageA" src="site.png" alt="">
+              <div class="works_p">
+                <p>初めて自作効果音Webサイト制作</p>
+                <p>レンタルサーバーからドメイン取得まで経験し</p>
+                <p>ここからフロントエンドに興味を持ち始める</p>
+                <a href="https://dougasoundfx.com/">dougasoundfx.com</a>
+              </div>
+            </div>
+            
+            <div class="box boxB">
+              <img class="wimage imageB" src="download.png" alt="">
+              <div class="works_p">
+                <p>効果音制作で積極的にアウトプット</p>
+                <p>累計9000ダウンロード達成!</p>
+              </div>
+            </div>
+            <div class="box boxC">
+              <img class="wimage imageC" src="effect.png" alt="">
+              <div class="works_p">
+                <p>趣味の3DCGエフェクト制作では独学で作品を制作</p>
+                <p>Unityでプログラミングから絵作りまで挑戦しました!</p>
+                <a href="https://youtu.be/Xq0_1uusYxo">DemoReel(Youtube)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!--フッター -->
+      
+    <div class="footer">
+        <div class="footer-logo">MyPortfolio</div>
+        <div class="footer-list">
+          <ul>
+            <a href="#idWorks"><li>Works</li></a>
+            <a href="#idSkill"><li>Skill</li></a>
+            <a href="#idProfile"><li>Profile</li></a>
+          </ul>
+        </div>
+    </div>
+
+
+  </body>
+</html>
